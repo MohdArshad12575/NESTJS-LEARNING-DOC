@@ -3,10 +3,10 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AuthService {
     userInfo() {
-        return "user infornation below"
+        return "user information below"
     }
 
     register() {
-        return "successfully registered"
+        return {message : "User Registered Successfully"}
     }
 }
